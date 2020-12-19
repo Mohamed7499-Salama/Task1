@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: gray;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 90%;
+    margin: auto; /* to make page not start from hash الحواف */
+    padding: 80px 30px;
+}
+.box{
+    width: 40%;
+    float: right;
+    padding: 20px 30px;
+    background-color: gray;
+    margin: 10px 10px;
+}
+.photo{
+    width: 30%;
+    float: left;
+    padding: 20px 30px;
+    margin: 10px 10px;
+          
+}
+.container .nav{
+    
+    float: left; /*  to make elements float from left to right*/ 
+    list-style: none; /* to remove marks before elements*/
+        
+}
+.container .nav li{
+    display: inline-block; /*  to display elements in list inline*/
+ 
+ }
+ .container .nav li a{
+    display: block;
+    text-decoration: none; /* to remove line under text  */
+}
+.contact{
+    padding: 80px 30px;
+}
+
